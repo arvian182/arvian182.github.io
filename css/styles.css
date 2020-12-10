@@ -10121,10 +10121,14 @@ h3 {
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
-.masthead .masthead-avatar {
-  width: 15rem;
+.circular-image {
+  border: 1px solid #000000;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  
 }
-
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
